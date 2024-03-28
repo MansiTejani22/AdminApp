@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/TxFirstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FirstName:-"
+                />
+
+            <TextView
+                android:id="@+id/TxPhoneNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PhoneNo:-"/>
+
+            <TextView
+                android:id="@+id/TxEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email:-"/>
+            <TextView
+                android:id="@+id/TxGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gender:-"/>
+            <TextView
+                android:id="@+id/TxDateOfBorth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DateOfBorth:-"/>
+            <TextView
+                android:id="@+id/TxPinCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PinCode:-"/>
+            <TextView
+                android:id="@+id/TxAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address:-"/>
+            <TextView
+                android:id="@+id/TxCity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="City:-"/>
+            <TextView
+                android:id="@+id/TxEmergencyContactNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EmergencyContactNumber:-"/>
+
+
+            <Button
+                android:id="@+id/BtnDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/yellow"
+                android:layout_below="@id/EtCategoryName"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Delete" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
